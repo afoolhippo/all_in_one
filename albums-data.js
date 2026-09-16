@@ -349,6 +349,93 @@ no noodle no life
 `)
   },
 
+  {
+    title: 'murmur from east coast',
+    year: '2022年6月',
+    cover: 'images/12thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+夜のクリシェ
+サンセット
+三つ編みの女の子
+志賀島サーフデイズ
+クレイジーバッドフィーリング
+ライブハウス
+青い
+drunken morning
+ほわいとあうと
+jellyfish dreaming
+夏の日の午後
+新しい朝
+`)
+  },
+
+  {
+    title: 'graffiti',
+    year: '2022年8月',
+    cover: 'images/13thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+ハニー＆ダーリン
+dope music
+おやすみこーじー
+タポタポオレンジ
+nikujaga
+party people
+STUPID
+2am
+ふらふら
+summer night
+heartbeat (inst.)
+飛行機雲
+`)
+  },
+
+  {
+    title: 'come again',
+    year: '2022年9月',
+    cover: 'images/14thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+日常
+パークサイドメモリー
+リコリス
+カムアゲイン
+コードの唄
+ダルいサマー
+二度寝ガール
+ダーティソング
+ビートダンス
+マルボロ (inst.)
+メアリー
+マイライフ
+`)
+  },
+
+  {
+    title: 'dialogue',
+    year: '2022年8月',
+    cover: 'images/15thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+ひかりのまち
+シエスタ日和
+sidestory
+megane
+soft skin
+橙
+aloha boys beachside fiction (inst.)
+discord (inst.)
+映画
+asayake
+conifer forest (inst.)
+霜降
+`)
+  },
 
 ];
 
