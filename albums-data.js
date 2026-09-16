@@ -283,5 +283,72 @@ Boys don't cry
 `)
   },
 
+  {
+    title: 'forever young',
+    year: '2021年9月',
+    cover: 'images/9thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+オールライト
+カレンダー
+ポキポキきゅうり
+ウーパールーパーソングッ
+角煮まん
+たぬき
+オシャレメガネ
+仕事に行きたくない！
+マジックマッシュルーム
+ホームパーティー
+ねむいね
+orange girl
+`)
+  },
+
+  {
+    title: 'two more years',
+    year: '2021年12月',
+    cover: 'images/10thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+2年後
+荒野
+クライベイビー
+歪なダンス
+我儘
+remember me
+ゆーれいの友だち
+もしもし
+nowhere
+melt down (inst.)
+nodoka
+放物線
+`)
+  },
+
+  {
+    title: 'in the garage',
+    year: '2022年3月',
+    cover: 'images/11thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+管楽団の夜 (inst.)
+朝靄の歌
+メロンソーダ
+生徒会長
+Wifiないと生きていけない
+no noodle no life
+バレンタインミー
+ひつじさん (inst.)
+ペガサスさん
+電光石火
+けだるい
+ネオテニー
+`)
+  },
+
+
 ];
 
