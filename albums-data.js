@@ -163,7 +163,7 @@ myouga tabeta?
   {
     title: 'Songs for Sunday vol.3',
     year: '2021年9月',
-    cover: 'images/sunday3.png',
+    cover: 'images/sunday3.PNG',
     description: 'aaaa',
     youtube: '#',
     tracks: toTracks(`
@@ -214,6 +214,72 @@ daydreaming
 秘密
 100年後
 washing machine
+`)
+  },
+
+  {
+    title: 'shinkokyu',
+    year: '2020年12月',
+    cover: 'images/6thfull.png',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+トラベログ
+食卓
+D and C
+フランケン
+カメレオン
+ネオン
+汚れた血
+マグニチュード
+モーニング　グローリー
+付箋
+futurama (inst.)
+world's end girlfriend
+`)
+  },
+
+  {
+    title: 'no music no life',
+    year: '2021年7月',
+    cover: 'images/7thfull.png',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+そっか
+アラビアータ
+Boring days
+三角定規
+ノアの方舟
+UFO
+あかさたな
+フルーツソング
+マーダー
+帰宅部
+apple tea
+no music no life
+`)
+  },
+
+  {
+    title: 'you and me',
+    year: '2021年7月',
+    cover: 'images/8thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+夕方の女の子
+片想い
+sleeping days
+bye bye
+ビタースイート
+静かな夜に
+真夏の牢獄
+in dreaming
+欲望
+戯言
+Boys don't cry
+あてどなく
 `)
   },
 
