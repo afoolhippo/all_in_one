@@ -22,7 +22,7 @@ const albums = [
     title: 'Hippo Diary',
     year: '2019年11月',
     cover: 'images/1stfull.png',
-    description: 'aaaa',
+    description: 'ipadを購入しgaragebandを触り始めたことをきっかけにDTM活動に火が付き、勢いで制作した1stアルバム。学生時代の思い出の曲も複数再録。',
     youtube: '#',
     tracks: toTracks(`
 ゴミとダンス
@@ -44,7 +44,7 @@ The autumun song feat. Yoshibiroko (inst.)
     title: 'The Days of Cola and Peony',
     year: '2020年3月',
     cover: 'images/2ndfull.png',
-    description: 'aaaa',
+    description: '1stの勢いそのままに制作した2nd。初期のライブを支えたバドワイザーほか、友人作詞の怪曲「渇いたナイフ」が誕生。',
     youtube: '#',
     tracks: toTracks(`
 バドワイザー
@@ -104,7 +104,7 @@ casual bar
     title: 'Blue on Red',
     year: '2020年10月',
     cover: 'images/4thfull.png',
-    description: 'aaaa',
+    description: '全体的に繊細な世界観を感じさせる4th。疾走感ある「モノクロの季節」は時折でライブで披露。',
     youtube: '#',
     tracks: toTracks(`
 モノクロの季節
@@ -126,7 +126,7 @@ navy blue
     title: 'Songs for Sunday vol.1',
     year: '2021年5月',
     cover: 'images/sunday1.png',
-    description: 'aaaa',
+    description: '友人たちと期間限定で立ち上げたyoutube日替わりチャンネルをきっかけにしたコンセプトアルバム。食べ物ソングの元祖、「歯磨きしようぜ」収録。',
     youtube: '#',
     tracks: toTracks(`
 ランドセル
@@ -145,7 +145,7 @@ navy blue
     title: 'Songs for Sunday vol.2',
     year: '2021年7月',
     cover: 'images/sunday2.png',
-    description: 'aaaa',
+    description: '友人たちと期間限定で立ち上げたyoutube日替わりチャンネルをきっかけにしたコンセプトアルバム。某メーカーの掃除機への憧れを素直に歌い上げた「ダイソン」収録。',
     youtube: '#',
     tracks: toTracks(`
 カメカメライフ
@@ -164,7 +164,7 @@ myouga tabeta?
     title: 'Songs for Sunday vol.3',
     year: '2021年9月',
     cover: 'images/sunday3.PNG',
-    description: 'aaaa',
+    description: '友人たちと期間限定で立ち上げたyoutube日替わりチャンネルをきっかけにしたコンセプトアルバム。夏になると歌いたくなる「かき氷」収録。',
     youtube: '#',
     tracks: toTracks(`
 かき氷
