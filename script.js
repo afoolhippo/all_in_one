@@ -10,6 +10,7 @@ const passwordInput = document.querySelector('#password');
 const loginError = document.querySelector('#loginError');
 const albumList = document.querySelector('#albumList');
 const searchInput = document.querySelector('#searchInput');
+const searchStatus = document.querySelector('#searchStatus');
 const noResults = document.querySelector('#noResults');
 const logoutButton = document.querySelector('#logoutButton');
 
@@ -40,23 +41,28 @@ const clearSession = () => {
 const showLibrary = () => {
   gate.hidden = true;
   library.hidden = false;
-  renderAlbums(albumData);
+  renderAlbums(albumData.map((album, index) => ({ album, index })).reverse(), '');
 };
 
-const renderAlbums = (items) => {
-  albumList.innerHTML = items.map((album, index) => `
-    <article class="album" style="--cover: ${album.color}">
-      <button class="album__summary" type="button" aria-expanded="false" aria-controls="album-${index}">
-        <span class="album__cover" aria-hidden="true">${index + 1}</span>
+const renderAlbums = (items, query) => {
+  const isSearching = query.length > 0;
+
+  albumList.innerHTML = items.map(({ album, index }) => `
+    <article class="album${isSearching ? ' is-open is-search-result' : ''}" style="--cover: ${album.color}">
+      <button class="album__summary" type="button" aria-expanded="${isSearching}" aria-controls="album-${index}">
+        <span class="album__cover">
+          <span class="album__cover-number" aria-hidden="true">${index + 1}</span>
+          <img src="${album.cover}" alt="${album.title}のジャケット" onerror="this.hidden=true">
+        </span>
         <span class="album__meta">
-          <small>${album.year}・${album.tracks.length} TRACKS</small>
+          <small>${album.year}</small>
           <h2>${album.title}</h2>
-          <p>${album.description}</p>
         </span>
         <span class="album__arrow" aria-hidden="true">⌄</span>
       </button>
-      <div class="album__details" id="album-${index}" hidden>
-        <ol class="track-list">${album.tracks.map((track) => `<li>${track}</li>`).join('')}</ol>
+      <div class="album__details" id="album-${index}"${isSearching ? '' : ' hidden'}>
+        <p class="album__description">${album.description}</p>
+        <ol class="track-list">${album.tracks.map((track) => `<li>${isSearching && track.toLowerCase().includes(query) ? `<mark>${track}</mark>` : track}</li>`).join('')}</ol>
         <a class="youtube-button${album.youtube === '#' ? ' is-dummy' : ''}" href="${album.youtube}" target="_blank" rel="noopener noreferrer">▶ このアルバムをYouTubeで聴く</a>
       </div>
     </article>
@@ -93,8 +99,21 @@ loginForm.addEventListener('submit', (event) => {
 
 searchInput.addEventListener('input', () => {
   const query = searchInput.value.trim().toLowerCase();
-  const results = albumData.filter((album) => [album.title, album.year, album.description, ...album.tracks].join(' ').toLowerCase().includes(query));
-  renderAlbums(results);
+  const results = albumData
+    .map((album, index) => ({ album, index }))
+    .reverse()
+    .filter(({ album }) => [album.title, album.year, album.description, ...album.tracks].join(' ').toLowerCase().includes(query));
+  const trackCount = query ? albumData.reduce((count, album) => count + album.tracks.filter((track) => track.toLowerCase().includes(query)).length, 0) : 0;
+
+  if (!query) {
+    searchStatus.textContent = '';
+  } else if (trackCount > 0) {
+    searchStatus.textContent = `「${searchInput.value.trim()}」を含む曲が${trackCount}曲見つかりました。`;
+  } else {
+    searchStatus.textContent = `該当するアルバムが${results.length}件見つかりました。`;
+  }
+
+  renderAlbums(results, query);
 });
 
 logoutButton.addEventListener('click', () => {

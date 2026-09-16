@@ -8,6 +8,7 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html { scroll-behavior: smooth; }
 body { margin: 0; color: var(--ink); background: var(--blue); font-family: "Kiwi Maru", serif; }
 button, input { font: inherit; }
@@ -16,8 +17,9 @@ button { color: inherit; cursor: pointer; }
 .gate {
   display: grid;
   min-height: 100svh;
-  padding: 28px 20px;
-  place-items: center;
+  padding: max(52px, env(safe-area-inset-top)) 20px 28px;
+  align-items: start;
+  justify-items: center;
 }
 
 .gate__box {
@@ -44,6 +46,7 @@ button:active { box-shadow: 1px 2px 0 var(--ink); transform: translate(3px, 3px)
 .library__header > p:not(.eyebrow) { margin: 24px 0 30px; }
 .search { display: grid; gap: 8px; text-align: left; }
 .search span { font-size: .82rem; }
+.search-status { min-height: 1.7em; margin: 13px 0 0; font-size: .9rem; font-weight: 500; }
 
 .album-list { display: grid; gap: 28px; width: min(100%, 760px); margin: 0 auto; }
 .album {
@@ -54,16 +57,24 @@ button:active { box-shadow: 1px 2px 0 var(--ink); transform: translate(3px, 3px)
 }
 .album__summary { display: grid; grid-template-columns: 108px 1fr auto; gap: 16px; align-items: center; width: 100%; min-height: 132px; padding: 12px; border: 0; background: var(--paper); box-shadow: none; text-align: left; }
 .album__summary:active { box-shadow: none; transform: none; }
-.album__cover { display: grid; width: 108px; aspect-ratio: 1; place-items: center; border: 2px solid var(--ink); background: var(--cover); font-size: 2.5rem; }
+.album__cover { position: relative; display: grid; width: 108px; aspect-ratio: 1; overflow: hidden; place-items: center; border: 2px solid var(--ink); background: var(--cover); font-size: 2.5rem; transition: width .35s ease, margin .35s ease; }
+.album__cover img { position: absolute; inset: 0; z-index: 1; width: 100%; height: 100%; object-fit: cover; }
+.album__cover-number { position: relative; z-index: 0; }
 .album__meta small { display: block; margin-bottom: 7px; letter-spacing: .08em; }
 .album__meta h2 { margin: 0 0 7px; font-size: 1.25rem; }
-.album__meta p { margin: 0; font-size: .85rem; line-height: 1.6; }
 .album__arrow { font-size: 1.5rem; transition: transform .25s ease; }
 .album.is-open .album__arrow { transform: rotate(180deg); }
+.album.is-open:not(.is-search-result) .album__summary { grid-template-columns: 1fr auto; padding: 18px; }
+.album.is-open:not(.is-search-result) .album__cover { grid-column: 1 / -1; grid-row: 2; width: min(72vw, 280px); margin: 12px auto 6px; justify-self: center; }
+.album.is-open:not(.is-search-result) .album__meta { grid-column: 1; grid-row: 1; }
+.album.is-open:not(.is-search-result) .album__arrow { grid-column: 2; grid-row: 1; }
 .album__details { padding: 4px 18px 24px; border-top: 2px dashed var(--ink); }
+.album__description { margin: 18px 0 20px; line-height: 1.85; }
+.album.is-search-result .album__description { display: none; }
 .track-list { margin: 18px 0 24px; padding: 0; list-style: none; counter-reset: tracks; }
 .track-list li { display: grid; grid-template-columns: 2.3em 1fr; gap: 4px; padding: 8px 2px; border-bottom: 1px dotted #7e8589; line-height: 1.5; }
 .track-list li::before { counter-increment: tracks; content: counter(tracks, decimal-leading-zero); color: #52616a; }
+.track-list mark { padding: 2px 5px; color: var(--ink); background: var(--yellow); box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .youtube-button { display: block; width: 100%; color: var(--paper); background: var(--ink); text-align: center; text-decoration: none; padding: 14px 16px; }
 .youtube-button.is-dummy { pointer-events: none; opacity: .55; }
 .no-results { text-align: center; }
@@ -75,7 +86,7 @@ footer p { margin-top: 32px; font-size: .75rem; }
   .album__summary { grid-template-columns: 82px 1fr auto; gap: 11px; }
   .album__cover { width: 82px; font-size: 2rem; }
   .album__meta h2 { font-size: 1.05rem; }
-  .album__meta p { display: none; }
+  .album.is-open:not(.is-search-result) .album__cover { width: min(74vw, 270px); }
 }
 
 @media (prefers-reduced-motion: reduce) {
