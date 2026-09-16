@@ -1,28 +1,86 @@
 // アルバムの追加・変更は、このファイルを編集します。
 // youtubeの「#」を、限定公開YouTube動画のURLへ置き換えてください。
+// tracksのバッククォート内には、Excelの曲名列をまとめて貼り付けられます。
+// 「曲順」「曲名」の2列を貼った場合は、曲順を自動で取り除きます。
+// アルバムは古い順に並べ、新しい作品を一番下へ追加してください。
+// ページ上では自動的に逆順となり、最新作品が一番上に表示されます。
+const toTracks = (text) => text
+  .split(/\r?\n/)
+  .map((line) => line.trim())
+  .filter(Boolean)
+  .map((line) => {
+    const columns = line.split('\t').map((column) => column.trim());
+    return columns.length > 1 && (/^\d+$/.test(columns[0]) || columns[0] === '曲順')
+      ? columns.slice(1).join(' ').trim()
+      : line;
+  })
+  .filter((track) => track && track !== '曲名');
+
 const albums = [
   {
-    title: '町の途中',
-    year: '2026',
-    description: '歩きながら見つけた、何でもない景色を集めたアルバム。',
-    color: '#ed7fa5',
-    youtube: '#',
-    tracks: ['朝の商店街', '角の自転車', '信号待ち', 'コーヒーの湯気', '二階の窓', '知らない犬', '昼休み', '小さな公園', '帰り道', '遠くの踏切', '今日の夕焼け', 'また明日']
-  },
-  {
-    title: '夜の冷蔵庫',
-    year: '2025',
-    description: '眠れない夜と、台所の小さな音についての12曲。',
-    color: '#fff19a',
-    youtube: '#',
-    tracks: ['午前零時', '冷蔵庫の灯り', '麦茶', '残りもの', '静かな換気扇', 'アイスクリーム', '眠れません', '深夜のラーメン', '水を一杯', '時計の音', 'カーテンの向こう', 'おやすみ']
-  },
-  {
-    title: '箱崎スケッチ',
-    year: '2024',
-    description: '箱崎の町で拾った言葉と風景を綴ったアルバム。',
+    title: 'Hippo Diary',
+    year: '2019年11月',
+    cover: 'images/1stfull.png',
+    description: 'aaaa',
     color: '#9ed6aa',
     youtube: '#',
-    tracks: ['駅を出たところ', '筥崎宮前', '古いアパート', 'パン屋の匂い', '雨の参道', '路地裏', '夕方のスーパー', '電車が通る', '海まで歩く', '屋台の灯り', '箱崎はよかとこね', '町は眠る']
+    tracks: toTracks(`
+ゴミとダンス
+Mellow Yellow
+ブレンディ
+タウン
+Cloudy Song
+カヌレのワルツ
+Night of the bloody apes(inst.)
+ブライアン
+Black Riot
+See you again
+The autumun song feat. Yoshibiroko (inst.)
+蝉の声
+`)
+  },
+  {
+    title: 'The Days of Cola and Peony',
+    year: '2020年3月',
+    cover: 'images/2stfull.png',
+    description: 'aaaa',
+    color: '#9ed6aa',
+    youtube: '#',
+    tracks: toTracks(`
+バドワイザー
+ブエノス
+狂う日
+三蔵の残像
+渇いたナイフで喉仏見せる
+TEENAGER
+メメント・モリ (inst.)
+タイムマシン
+迷い猫と雨の音
+コールドレイン (inst.)
+おやすみ
+アネモネ
+`)
+  },
+  {
+    title: 'Slow and Mellow',
+    year: '2020年8月',
+    cover: 'images/3rdfull.png',
+    description: '自己内省が色濃く反映されたアルバム。midnight chill outにて、打ち込み系ラップに初挑戦し、以降のスタイルの萌芽を感じさせる。',
+    color: '#9ed6aa',
+    youtube: '#',
+    tracks: toTracks(`
+midnight chill out
+海辺のまち
+転校生
+中学生
+マジックアワー
+fallin'
+モノローグ
+LOST
+17歳
+アンゲロニア
+slow down
+宇宙旅行
+`)
   }
 ];
