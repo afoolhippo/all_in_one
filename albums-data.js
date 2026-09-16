@@ -17,6 +17,7 @@ const toTracks = (text) => text
   .filter((track) => track && track !== '曲名');
 
 const albums = [
+
   {
     title: 'Hippo Diary',
     year: '2019年11月',
@@ -38,6 +39,7 @@ The autumun song feat. Yoshibiroko (inst.)
 蝉の声
 `)
   },
+
   {
     title: 'The Days of Cola and Peony',
     year: '2020年3月',
@@ -59,6 +61,7 @@ TEENAGER
 アネモネ
 `)
   },
+
   {
     title: 'Slow and Mellow',
     year: '2020年8月',
@@ -79,6 +82,45 @@ LOST
 slow down
 宇宙旅行
 `)
-  }
+  },
+
+  {
+    title: 'Jinn Lime E.P.',
+    year: '2020年8月',
+    cover: 'images/1step.png',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+ジンライム
+茄子を食べたら
+黒毛和牛
+レモネード
+憎めん拉麺
+casual bar
+`)
+  },
+
+  {
+    title: 'Blue on Red',
+    year: '2020年10月',
+    cover: 'images/4thfull.png',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+モノクロの季節
+ジェットストリーム
+22.5
+耳鳴り
+夕暮れ
+rain song
+ナイトドライブ
+パレード
+冬空
+鈍痛
+navy blue
+ラストナイト
+`)
+  },
+
 ];
 
