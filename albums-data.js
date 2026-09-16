@@ -22,7 +22,6 @@ const albums = [
     year: '2019年11月',
     cover: 'images/1stfull.png',
     description: 'aaaa',
-    color: '#9ed6aa',
     youtube: '#',
     tracks: toTracks(`
 ゴミとダンス
@@ -42,9 +41,8 @@ The autumun song feat. Yoshibiroko (inst.)
   {
     title: 'The Days of Cola and Peony',
     year: '2020年3月',
-    cover: 'images/2stfull.png',
+    cover: 'images/2ndfull.png',
     description: 'aaaa',
-    color: '#9ed6aa',
     youtube: '#',
     tracks: toTracks(`
 バドワイザー
@@ -66,7 +64,6 @@ TEENAGER
     year: '2020年8月',
     cover: 'images/3rdfull.png',
     description: '自己内省が色濃く反映されたアルバム。midnight chill outにて、打ち込み系ラップに初挑戦し、以降のスタイルの萌芽を感じさせる。',
-    color: '#9ed6aa',
     youtube: '#',
     tracks: toTracks(`
 midnight chill out
@@ -84,3 +81,4 @@ slow down
 `)
   }
 ];
+

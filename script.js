@@ -48,11 +48,10 @@ const renderAlbums = (items, query) => {
   const isSearching = query.length > 0;
 
   albumList.innerHTML = items.map(({ album, index }) => `
-    <article class="album${isSearching ? ' is-open is-search-result' : ''}" style="--cover: ${album.color}">
+    <article class="album${isSearching ? ' is-open is-search-result' : ''}">
       <button class="album__summary" type="button" aria-expanded="${isSearching}" aria-controls="album-${index}">
         <span class="album__cover">
-          <span class="album__cover-number" aria-hidden="true">${index + 1}</span>
-          <img src="${album.cover}" alt="${album.title}のジャケット" onerror="this.hidden=true">
+          <img src="${album.cover}" alt="${album.title}のジャケット" onerror="this.closest('.album__cover').hidden=true">
         </span>
         <span class="album__meta">
           <small>${album.year}</small>
