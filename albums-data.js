@@ -242,7 +242,7 @@ world's end girlfriend
   {
     title: 'no music no life',
     year: '2021年7月',
-    cover: 'images/7thfull.png',
+    cover: 'images/7thfull.PNG',
     description: 'aaaa',
     youtube: '#',
     tracks: toTracks(`
