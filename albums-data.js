@@ -437,5 +437,369 @@ conifer forest (inst.)
 `)
   },
 
+  {
+    title: 'twilight',
+    year: '2023年2月',
+    cover: 'images/16thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+あ、ハッピーニューイヤー
+ああ、キャンディ
+芋九のブルース
+ハロウィンナイト
+名もなき詩
+ちぐはぐ
+カラス
+羽のない天使
+ビター＆シュガー
+錠剤
+ピンボケ
+トワイライト
+`)
+  },
+
+  {
+    title: 'mud mud mud',
+    year: '2023年3月',
+    cover: 'images/17thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+BoTAniCal DaYs
+僕らのスーパーマーケット
+COW
+蛙さん
+ぬかるみ
+ルースター
+ジョン・タイター
+ガラガラポン
+Until the end
+no color
+沈黙
+狂った君へ
+`)
+  },
+
+  {
+    title: 'yofukashi beatmaker',
+    year: '2023年4月',
+    cover: 'images/18thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+opening
+前兆
+トクイテン
+戒厳令
+マッチ待ち
+yurei in the coffeebreak
+ワイト
+love and…
+白昼夢
+退屈なドライブ
+夕空の中へ
+邂逅
+`)
+  },
+
+  {
+    title: 'Charanporan Days',
+    year: '2023年6月',
+    cover: 'images/19thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+ちゃらんぽらんデイズ
+ピーターパン
+midtown blues
+入道雲と僕
+ルージュの記憶
+雨漏り酒盛り俺一人
+オールドクロウ
+pretty folky girl
+hear me coming
+夕暮れポエトリー
+バス停の鳩
+シーズナル
+`)
+  },
+
+  {
+    title: 'A La Carte',
+    year: '2023年6月',
+    cover: 'images/20thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+ハンバーガー
+コッペパン
+プリンと小籠包
+アラカブの煮付け
+どこでもドーナツ
+ラーメン三軒ハシゴ
+ジュリー
+二日酔い
+癒着
+梅雨
+ファスティングダイエット
+目玉のおやじ
+`)
+  },
+
+  {
+    title: 'my name is hippo',
+    year: '2023年10月',
+    cover: 'images/21thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+my name is hippo
+1988
+箱崎はよかとこね
+我らが箱崎商店街
+酒893 wakachi
+オレンジジムニー
+トマトマト
+げきあつ
+えだまめ
+わがしのうた
+はしびろこう
+放生会
+`)
+  },
+
+  {
+    title: 'endroll',
+    year: '2023年11月',
+    cover: 'images/22thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+サマーサマー
+タラタラしてんじゃねーよ
+じゅげむ
+狂犬
+ペスカトーレ
+プラットフォーム
+ソラシド
+曇天
+ルサンチマン
+エンドロール
+slowmotion
+looking for
+`)
+  },
+
+  {
+    title: 'bedroom music vol.1',
+    year: '2021年2月',
+    cover: 'images/beat1.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+yoake
+warm
+heptagon
+ghost town
+bad feeling
+a sleep-walker
+deep sheep
+calm
+memories
+soft bird
+good 4 u
+coda
+`)
+  },
+
+  {
+    title: 'bedroom music vol.2',
+    year: '2021年2月',
+    cover: 'images/beat2.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+forgive me
+reborn
+freesia
+tired of you
+techno modoki
+mountain book man
+fog
+deep inside
+into the sea
+disconnected
+labyrinth
+sugar and milk
+`)
+  },
+
+  {
+    title: '箱太郎BEST',
+    year: '2023年9月',
+    cover: 'images/hakotarou.png',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+箱太郎伝説
+クレイジーパンダ
+ねぎ大将
+スウィートスウィート蘭王
+潤滑油
+キラキラうどん
+おはよう昆布さん
+切り干し大根ニキ
+チャミポ！
+かす＆ダンス
+ジンジャー信者
+ポテサラうどん?
+`)
+  },
+
+  {
+    title: 'moon',
+    year: '2024年3月',
+    cover: 'images/3rdep.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+another morning
+aquarium
+eniguma
+good dreams
+moon
+under the sea
+`)
+  },
+
+  {
+    title: 'hayaoki beatmaker',
+    year: '2023年4月',
+    cover: 'images/4thep.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+KIRU YOU
+Xデイ
+you are my sun
+クソ暑い夏
+ダンシング　サンディ
+ネイティブ　ドランカー
+ピーナッツ　バター
+`)
+  },
+
+  {
+    title: 'no title',
+    year: '2024年2月',
+    cover: 'images/23thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+hippo音頭
+オムオムオムライス
+からあげうまうま
+サルトリイバラ
+雨のち晴れ
+君の好きな花
+気になるほくろ
+ネヴァーマインド
+じいさんmeetsばあさん
+放蕩息子
+no titile
+マイウェイ
+`)
+  },
+
+  {
+    title: 'haru no nioi',
+    year: '2024年3月',
+    cover: 'images/24thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+銭湯せんと？
+朝焼けとコーヒーと君と
+春の匂い
+GO! GO! GOLF
+たこ坊主
+アブリサバズシ
+さるちゃん農園
+涙もろいおじさん
+マイノリティ
+helpless
+僕らのハコさんぽマップ
+新しいハコザキ
+`)
+  },
+
+  {
+    title: 'xxxx',
+    year: '2024年6月',
+    cover: 'images/25thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+fxxk you bayby
+baby bamboo
+荒唐無稽
+いざ開戦！
+夕暮れ part2
+フラストレーション in the night
+くるくるパー
+アスファルトあつあつ
+痙攣
+混濁
+ISO
+xxxx
+`)
+  },
+
+  {
+    title: 'summergazer',
+    year: '2024年8月',
+    cover: 'images/26thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+冷奴
+ヘビースモーカー
+覆水盆に返そうぜ！
+すぐローソン
+IGGY
+カルマ
+silent season(inst.)
+年中五月病
+噛み合わない
+引っかき傷
+summergazer(inst.)
+夏の日の花火
+`)
+  },
+
+  {
+    title: 'A punk',
+    year: '2024年10月',
+    cover: 'images/27thfull.PNG',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+なんとなくパンク
+ぬらりひょん
+リップサービス
+野良猫のパーティー
+にゃんこ
+生姜焼き
+透明な黒(inst.)
+八方塞がり
+捜査網
+金輪際
+薔薇のまち
+モラトリアム35
+`)
+  },
+
+
 ];
 
