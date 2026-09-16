@@ -122,5 +122,100 @@ navy blue
 `)
   },
 
+  {
+    title: 'Songs for Sunday vol.1',
+    year: '2021年5月',
+    cover: 'images/sunday1.png',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+ランドセル
+三ツ矢サイダー
+どら焼き食べて
+アポロの記憶
+歯磨きしようぜ
+ペンギンさん
+緑茶日和
+アイス
+おくのほそみち
+`)
+  },
+
+  {
+    title: 'Songs for Sunday vol.2',
+    year: '2021年7月',
+    cover: 'images/sunday2.png',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+カメカメライフ
+ダイソン
+テトリス (inst.)
+myouga tabeta?
+ペパーミント
+ちらし寿司
+梨 or nothing
+セブンイレブンE気分
+セコムボーイ
+`)
+  },
+
+  {
+    title: 'Songs for Sunday vol.3',
+    year: '2021年9月',
+    cover: 'images/sunday3.png',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+かき氷
+花火 (inst.)
+猫
+pray
+チンチン電車
+焼肉食べたい
+石炭掘って
+真っ赤なもみじ
+苗字苗字yeah
+`)
+  },
+
+  {
+    title: 'natsuyasumi',
+    year: '2020年12月',
+    cover: 'images/5thfull.png',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+夏の余韻
+mushi mushiする日々
+残暑
+WSRT
+no future
+犬猫音頭
+スピード
+モグラ
+smoke
+echo
+don't sleep
+旅立つ君へ
+`)
+  },
+
+  {
+    title: 'summer sour E.P.',
+    year: '2020年9月',
+    cover: 'images/2ndep.png',
+    description: 'aaaa',
+    youtube: '#',
+    tracks: toTracks(`
+summer sour
+帰り道
+daydreaming
+秘密
+100年後
+washing machine
+`)
+  },
+
 ];
 
