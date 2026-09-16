@@ -1,6 +1,7 @@
-const PASSWORD_HASH = '2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea'; // demo
+const ACCESS_PASSWORD = 'demo';
 const AUTH_KEY = 'a-fool-hippo-all-in-one-auth';
 const AUTH_DAYS = 7;
+const albumData = typeof albums === 'undefined' ? [] : albums;
 
 const gate = document.querySelector('#gate');
 const library = document.querySelector('#library');
@@ -12,18 +13,34 @@ const searchInput = document.querySelector('#searchInput');
 const noResults = document.querySelector('#noResults');
 const logoutButton = document.querySelector('#logoutButton');
 
-const hashText = async (text) => {
-  const bytes = new TextEncoder().encode(text);
-  const digest = await crypto.subtle.digest('SHA-256', bytes);
-  return [...new Uint8Array(digest)].map((value) => value.toString(16).padStart(2, '0')).join('');
+const hasValidSession = () => {
+  try {
+    return Number(localStorage.getItem(AUTH_KEY) || 0) > Date.now();
+  } catch (error) {
+    return false;
+  }
 };
 
-const hasValidSession = () => Number(localStorage.getItem(AUTH_KEY) || 0) > Date.now();
+const saveSession = () => {
+  try {
+    localStorage.setItem(AUTH_KEY, String(Date.now() + AUTH_DAYS * 24 * 60 * 60 * 1000));
+  } catch (error) {
+    // 保存できない環境でも、今回の入室は続行します。
+  }
+};
+
+const clearSession = () => {
+  try {
+    localStorage.removeItem(AUTH_KEY);
+  } catch (error) {
+    // 保存機能を利用できない環境では何もしません。
+  }
+};
 
 const showLibrary = () => {
   gate.hidden = true;
   library.hidden = false;
-  renderAlbums(albums);
+  renderAlbums(albumData);
 };
 
 const renderAlbums = (items) => {
@@ -59,30 +76,29 @@ const renderAlbums = (items) => {
   });
 };
 
-loginForm.addEventListener('submit', async (event) => {
+loginForm.addEventListener('submit', (event) => {
   event.preventDefault();
   loginError.textContent = '';
-  const inputHash = await hashText(passwordInput.value);
 
-  if (inputHash !== PASSWORD_HASH) {
+  if (passwordInput.value !== ACCESS_PASSWORD) {
     loginError.textContent = '合言葉が違います。';
     passwordInput.select();
     return;
   }
 
-  localStorage.setItem(AUTH_KEY, String(Date.now() + AUTH_DAYS * 24 * 60 * 60 * 1000));
+  saveSession();
   passwordInput.value = '';
   showLibrary();
 });
 
 searchInput.addEventListener('input', () => {
   const query = searchInput.value.trim().toLowerCase();
-  const results = albums.filter((album) => [album.title, album.year, album.description, ...album.tracks].join(' ').toLowerCase().includes(query));
+  const results = albumData.filter((album) => [album.title, album.year, album.description, ...album.tracks].join(' ').toLowerCase().includes(query));
   renderAlbums(results);
 });
 
 logoutButton.addEventListener('click', () => {
-  localStorage.removeItem(AUTH_KEY);
+  clearSession();
   library.hidden = true;
   gate.hidden = false;
   passwordInput.focus();
