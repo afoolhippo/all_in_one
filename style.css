@@ -53,7 +53,6 @@ button:active { box-shadow: 1px 2px 0 var(--ink); transform: translate(3px, 3px)
   overflow: hidden;
   border: 3px solid var(--ink);
   background: var(--paper);
-  box-shadow: 8px 9px 0 var(--ink);
 }
 .album__summary { display: grid; grid-template-columns: 108px 1fr auto; gap: 16px; align-items: center; width: 100%; min-height: 132px; padding: 12px; border: 0; background: var(--paper); box-shadow: none; text-align: left; }
 .album__summary:active { box-shadow: none; transform: none; }
