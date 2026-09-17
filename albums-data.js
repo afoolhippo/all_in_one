@@ -23,7 +23,7 @@ const albums = [
     year: '2019年11月',
     cover: 'images/1stfull.png',
     description: 'ipadを購入しgaragebandを触り始めたことをきっかけにDTM活動に火が付き、勢いで制作した1stアルバム。学生時代の思い出の曲も複数再録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/KLxkMRpE0Oo',
     tracks: toTracks(`
 ゴミとダンス
 Mellow Yellow
@@ -45,7 +45,7 @@ The autumun song feat. Yoshibiroko (inst.)
     year: '2020年3月',
     cover: 'images/2ndfull.png',
     description: '1stの勢いそのままに制作した2nd。初期のライブを支えたバドワイザーほか、友人作詞の怪曲「渇いたナイフ」が誕生。',
-    youtube: '#',
+    youtube: 'https://youtu.be/gM-0xw1-Sec',
     tracks: toTracks(`
 バドワイザー
 ブエノス
@@ -67,7 +67,7 @@ TEENAGER
     year: '2020年8月',
     cover: 'images/3rdfull.png',
     description: '自己内省が色濃く反映されたアルバム。midnight chill outにて、打ち込み系ラップに初挑戦し、以降のスタイルの萌芽を感じさせる。',
-    youtube: '#',
+    youtube: 'https://youtu.be/qN5K8F3qzxw',
     tracks: toTracks(`
 midnight chill out
 海辺のまち
