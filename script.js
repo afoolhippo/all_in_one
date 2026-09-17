@@ -1,4 +1,4 @@
-const ACCESS_PASSWORD = 'demo';
+const ACCESS_PASSWORD = 'hippo';
 const AUTH_KEY = 'a-fool-hippo-all-in-one-auth';
 const AUTH_DAYS = 7;
 const albumData = typeof albums === 'undefined' ? [] : albums;
