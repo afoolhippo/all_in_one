@@ -88,7 +88,7 @@ slow down
     title: 'Jinn Lime E.P.',
     year: '2020年8月',
     cover: 'images/1step.png',
-    description: 'aaaa',
+    description: '食べ物に特化したEP。今後の食べ物ソングの先駆け的存在。シュールな世界観の「茄子を食べたら」収録。',
     youtube: '#',
     tracks: toTracks(`
 ジンライム
@@ -183,7 +183,7 @@ pray
     title: 'natsuyasumi',
     year: '2020年12月',
     cover: 'images/5thfull.png',
-    description: 'aaaa',
+    description: '夏っぽい曲をはじめ様々なジャンルの曲がバランスよく収録。「echo」は最近ライブで頭角を現してきています。',
     youtube: '#',
     tracks: toTracks(`
 夏の余韻
@@ -205,7 +205,7 @@ don't sleep
     title: 'summer sour E.P.',
     year: '2020年9月',
     cover: 'images/2ndep.png',
-    description: 'aaaa',
+    description: '「natsuyasumi」と地続き的な印象のEP。打ち込みの音色を試行錯誤しながら生まれた曲たちです。',
     youtube: '#',
     tracks: toTracks(`
 summer sour
@@ -221,7 +221,7 @@ washing machine
     title: 'shinkokyu',
     year: '2020年12月',
     cover: 'images/6thfull.png',
-    description: 'aaaa',
+    description: '無色ゆえ目立ちにくいが、いぶし銀的な曲が多いアルバム。ライブでは中々披露していないかも。',
     youtube: '#',
     tracks: toTracks(`
 トラベログ
@@ -243,7 +243,7 @@ world's end girlfriend
     title: 'no music no life',
     year: '2021年7月',
     cover: 'images/7thfull.PNG',
-    description: 'aaaa',
+    description: '稀代のキラーチューン「そっか」を収録。ファンク的なノリの曲もいくらか収録。',
     youtube: '#',
     tracks: toTracks(`
 そっか
@@ -265,7 +265,7 @@ no music no life
     title: 'you and me',
     year: '2021年7月',
     cover: 'images/8thfull.PNG',
-    description: 'aaaa',
+    description: '素直な歌ものとしての強さに挑戦したアルバム。「真夏の牢獄」は個人的に胸が締め付けられる佳曲。',
     youtube: '#',
     tracks: toTracks(`
 夕方の女の子
@@ -287,7 +287,7 @@ Boys don't cry
     title: 'forever young',
     year: '2021年9月',
     cover: 'images/9thfull.PNG',
-    description: 'aaaa',
+    description: 'SNS募集で即興作曲するようになり、ユニークなテーマの曲が多いアルバム。歌う際のTPOを選ばざるを得ない「仕事に行きたくない！」収録。',
     youtube: '#',
     tracks: toTracks(`
 オールライト
@@ -309,7 +309,7 @@ orange girl
     title: 'two more years',
     year: '2021年12月',
     cover: 'images/10thfull.PNG',
-    description: 'aaaa',
+    description: 'とめどない作曲意欲そのままに制作したアルバム。ほろ苦い景色を彷彿とさせる「放物線」収録。',
     youtube: '#',
     tracks: toTracks(`
 2年後
@@ -331,7 +331,7 @@ nodoka
     title: 'in the garage',
     year: '2022年3月',
     cover: 'images/11thfull.PNG',
-    description: 'aaaa',
+    description: 'ポップな曲からあっさり系まで幅広く収録。ライブで盛り上がるときに欠かせない「Wifiないと生きていけない」収録。',
     youtube: '#',
     tracks: toTracks(`
 管楽団の夜 (inst.)
@@ -353,7 +353,7 @@ no noodle no life
     title: 'murmur from east coast',
     year: '2022年6月',
     cover: 'images/12thfull.PNG',
-    description: 'aaaa',
+    description: 'バラエティに富んだ感のあるアルバム。何気なく続く日々の尊さに迫った「新しい朝」収録。',
     youtube: '#',
     tracks: toTracks(`
 夜のクリシェ
@@ -375,7 +375,7 @@ jellyfish dreaming
     title: 'graffiti',
     year: '2022年8月',
     cover: 'images/13thfull.PNG',
-    description: 'aaaa',
+    description: '打ち込みラップ系に目覚め、短期間で大量作曲したアルバム。踏んでるんだか踏まれているのかは定かではない。',
     youtube: '#',
     tracks: toTracks(`
 ハニー＆ダーリン
@@ -397,7 +397,7 @@ heartbeat (inst.)
     title: 'come again',
     year: '2022年9月',
     cover: 'images/14thfull.PNG',
-    description: 'aaaa',
+    description: '歌ものへ回帰した感のあるアルバム。「リコリス」や「カムアゲイン」はライブでも歌っています。',
     youtube: '#',
     tracks: toTracks(`
 日常
@@ -419,7 +419,7 @@ heartbeat (inst.)
     title: 'dialogue',
     year: '2022年8月',
     cover: 'images/15thfull.PNG',
-    description: 'aaaa',
+    description: '学生時代から作り貯めた未収録曲を集めたアーカイブ的作品。',
     youtube: '#',
     tracks: toTracks(`
 ひかりのまち
@@ -441,7 +441,7 @@ conifer forest (inst.)
     title: 'twilight',
     year: '2023年2月',
     cover: 'images/16thfull.PNG',
-    description: 'aaaa',
+    description: '爽やかなポップチューン「ああキャンディ」ほかコロナにうなされながら作った「羽のない天使」収録。',
     youtube: '#',
     tracks: toTracks(`
 あ、ハッピーニューイヤー
@@ -463,7 +463,7 @@ conifer forest (inst.)
     title: 'mud mud mud',
     year: '2023年3月',
     cover: 'images/17thfull.PNG',
-    description: 'aaaa',
+    description: '小笹のスーパーでふと湧き上がり生まれた「僕らのスーパーマーケット」や過去の体験をありのままに告白した「狂った君へ」収録。',
     youtube: '#',
     tracks: toTracks(`
 BoTAniCal DaYs
@@ -485,7 +485,7 @@ no color
     title: 'yofukashi beatmaker',
     year: '2023年4月',
     cover: 'images/18thfull.PNG',
-    description: 'aaaa',
+    description: 'ラップ系アルバム再来。勢いで作りました。',
     youtube: '#',
     tracks: toTracks(`
 opening
@@ -507,7 +507,7 @@ love and…
     title: 'Charanporan Days',
     year: '2023年6月',
     cover: 'images/19thfull.PNG',
-    description: 'aaaa',
+    description: 'バス停で見つけた鳩の亡骸に捧げた「バス停の鳩」や巡りゆく季節を軽やかに',
     youtube: '#',
     tracks: toTracks(`
 ちゃらんぽらんデイズ
@@ -529,7 +529,7 @@ hear me coming
     title: 'A La Carte',
     year: '2023年6月',
     cover: 'images/20thfull.PNG',
-    description: 'aaaa',
+    description: '食べ物ソング爆発！ライブの定番「ハンバーガー」ほかシュールでダウナーな「二日酔い」など収録。',
     youtube: '#',
     tracks: toTracks(`
 ハンバーガー
@@ -551,7 +551,7 @@ hear me coming
     title: 'my name is hippo',
     year: '2023年10月',
     cover: 'images/21thfull.PNG',
-    description: 'aaaa',
+    description: '食べ物系の流れに加え、友人の歌詞提供を受けて制作した「箱崎はよかとこね」など箱崎ソングも収録。',
     youtube: '#',
     tracks: toTracks(`
 my name is hippo
@@ -573,7 +573,7 @@ my name is hippo
     title: 'endroll',
     year: '2023年11月',
     cover: 'images/22thfull.PNG',
-    description: 'aaaa',
+    description: 'ライブで披露することは少ないけれども、確かに自分がその時感じたフィーリングが歌になっています。',
     youtube: '#',
     tracks: toTracks(`
 サマーサマー
@@ -595,7 +595,7 @@ looking for
     title: 'bedroom music vol.1',
     year: '2021年2月',
     cover: 'images/beat1.PNG',
-    description: 'aaaa',
+    description: 'ビートメイキング風な曲づくりにチャレンジしたコンセプトアルバムvol.1。',
     youtube: '#',
     tracks: toTracks(`
 yoake
@@ -617,7 +617,7 @@ coda
     title: 'bedroom music vol.2',
     year: '2021年2月',
     cover: 'images/beat2.PNG',
-    description: 'aaaa',
+    description: 'ビートメイキング風な曲づくりにチャレンジしたコンセプトアルバムvol.2。',
     youtube: '#',
     tracks: toTracks(`
 forgive me
@@ -639,7 +639,7 @@ sugar and milk
     title: '箱太郎BEST',
     year: '2023年9月',
     cover: 'images/hakotarou.png',
-    description: 'aaaa',
+    description: '最狂の脂うどんを提供する「うどん箱太郎」さんのテーマソング詰め合わせのアルバム。',
     youtube: '#',
     tracks: toTracks(`
 箱太郎伝説
@@ -661,7 +661,7 @@ sugar and milk
     title: 'moon',
     year: '2024年3月',
     cover: 'images/3rdep.PNG',
-    description: 'aaaa',
+    description: '玉石混合なインストソングを集めたEP。',
     youtube: '#',
     tracks: toTracks(`
 another morning
@@ -677,7 +677,7 @@ under the sea
     title: 'hayaoki beatmaker',
     year: '2023年4月',
     cover: 'images/4thep.PNG',
-    description: 'aaaa',
+    description: 'ラップのような字余りの想いをフロウに乗せたEP。',
     youtube: '#',
     tracks: toTracks(`
 KIRU YOU
@@ -694,7 +694,7 @@ you are my sun
     title: 'no title',
     year: '2024年2月',
     cover: 'images/23thfull.PNG',
-    description: 'aaaa',
+    description: 'ライブの定番「オムオムオムライス」や己の人生観について素直に歌えた「マイウェイ」収録。',
     youtube: '#',
     tracks: toTracks(`
 hippo音頭
@@ -716,7 +716,7 @@ no titile
     title: 'haru no nioi',
     year: '2024年3月',
     cover: 'images/24thfull.PNG',
-    description: 'aaaa',
+    description: '再開発される箱崎の街並みを想いながら作った「新しいハコザキ」や銭湯跡地でのライブを契機に生まれた「銭湯せんと？」など収録。',
     youtube: '#',
     tracks: toTracks(`
 銭湯せんと？
@@ -738,7 +738,7 @@ helpless
     title: 'xxxx',
     year: '2024年6月',
     cover: 'images/25thfull.PNG',
-    description: 'aaaa',
+    description: 'ダークな世界観も感じさせる風変わりな印象もあるアルバム。',
     youtube: '#',
     tracks: toTracks(`
 fxxk you bayby
@@ -760,7 +760,7 @@ xxxx
     title: 'summergazer',
     year: '2024年8月',
     cover: 'images/26thfull.PNG',
-    description: 'aaaa',
+    description: 'ありもしない夏の記憶が蘇るような「冷奴」や気まずい空気感を煮詰めたような「噛み合わない」収録。',
     youtube: '#',
     tracks: toTracks(`
 冷奴
@@ -782,7 +782,7 @@ summergazer(inst.)
     title: 'A punk',
     year: '2024年10月',
     cover: 'images/27thfull.PNG',
-    description: 'aaaa',
+    description: 'ポストパンクな趣のある「なんとなくパンク」や妖怪シリーズの先駆けとして「ぬらりひょん」収録。',
     youtube: '#',
     tracks: toTracks(`
 なんとなくパンク
