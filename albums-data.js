@@ -89,7 +89,7 @@ slow down
     year: '2020年8月',
     cover: 'images/1step.png',
     description: '食べ物に特化したEP。今後の食べ物ソングの先駆け的存在。シュールな世界観の「茄子を食べたら」収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/lH_7tWx5DDA',
     tracks: toTracks(`
 ジンライム
 茄子を食べたら
@@ -105,7 +105,7 @@ casual bar
     year: '2020年10月',
     cover: 'images/4thfull.png',
     description: '全体的に繊細な世界観を感じさせる4th。疾走感ある「モノクロの季節」は時折でライブで披露。',
-    youtube: '#',
+    youtube: 'https://youtu.be/u9Q5pAtjTTE',
     tracks: toTracks(`
 モノクロの季節
 ジェットストリーム
@@ -127,7 +127,7 @@ navy blue
     year: '2021年5月',
     cover: 'images/sunday1.png',
     description: '友人たちと期間限定で立ち上げたyoutube日替わりチャンネルをきっかけにしたコンセプトアルバム。食べ物ソングの元祖、「歯磨きしようぜ」収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/Hz0jXEHxCew',
     tracks: toTracks(`
 ランドセル
 三ツ矢サイダー
@@ -146,7 +146,7 @@ navy blue
     year: '2021年7月',
     cover: 'images/sunday2.png',
     description: '友人たちと期間限定で立ち上げたyoutube日替わりチャンネルをきっかけにしたコンセプトアルバム。某メーカーの掃除機への憧れを素直に歌い上げた「ダイソン」収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/FWYR5RExJjA',
     tracks: toTracks(`
 カメカメライフ
 ダイソン
@@ -165,7 +165,7 @@ myouga tabeta?
     year: '2021年9月',
     cover: 'images/sunday3.PNG',
     description: '友人たちと期間限定で立ち上げたyoutube日替わりチャンネルをきっかけにしたコンセプトアルバム。夏になると歌いたくなる「かき氷」収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/sL-fxQ7AqzY',
     tracks: toTracks(`
 かき氷
 花火 (inst.)
@@ -184,7 +184,7 @@ pray
     year: '2020年12月',
     cover: 'images/5thfull.png',
     description: '夏っぽい曲をはじめ様々なジャンルの曲がバランスよく収録。「echo」は最近ライブで頭角を現してきています。',
-    youtube: '#',
+    youtube: 'https://youtu.be/o97NC2GTfjU',
     tracks: toTracks(`
 夏の余韻
 mushi mushiする日々
@@ -206,7 +206,7 @@ don't sleep
     year: '2020年9月',
     cover: 'images/2ndep.png',
     description: '「natsuyasumi」と地続き的な印象のEP。打ち込みの音色を試行錯誤しながら生まれた曲たちです。',
-    youtube: '#',
+    youtube: 'https://youtu.be/Ym6zU9xrTvk',
     tracks: toTracks(`
 summer sour
 帰り道
@@ -222,7 +222,7 @@ washing machine
     year: '2020年12月',
     cover: 'images/6thfull.png',
     description: '無色ゆえ目立ちにくいが、いぶし銀的な曲が多いアルバム。ライブでは中々披露していないかも。',
-    youtube: '#',
+    youtube: 'https://youtu.be/_Cn8i8Wq8xk',
     tracks: toTracks(`
 トラベログ
 食卓
@@ -244,7 +244,7 @@ world's end girlfriend
     year: '2021年7月',
     cover: 'images/7thfull.PNG',
     description: '稀代のキラーチューン「そっか」を収録。ファンク的なノリの曲もいくらか収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/xuNrL4pH6Mw',
     tracks: toTracks(`
 そっか
 アラビアータ
@@ -266,7 +266,7 @@ no music no life
     year: '2021年7月',
     cover: 'images/8thfull.PNG',
     description: '素直な歌ものとしての強さに挑戦したアルバム。「真夏の牢獄」は個人的に胸が締め付けられる佳曲。',
-    youtube: '#',
+    youtube: 'https://youtu.be/dpYxlRtgMLc',
     tracks: toTracks(`
 夕方の女の子
 片想い
@@ -288,7 +288,7 @@ Boys don't cry
     year: '2021年9月',
     cover: 'images/9thfull.PNG',
     description: 'SNS募集で即興作曲するようになり、ユニークなテーマの曲が多いアルバム。歌う際のTPOを選ばざるを得ない「仕事に行きたくない！」収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/Lvnv5VtkF3Q',
     tracks: toTracks(`
 オールライト
 カレンダー
@@ -310,7 +310,7 @@ orange girl
     year: '2021年12月',
     cover: 'images/10thfull.PNG',
     description: 'とめどない作曲意欲そのままに制作したアルバム。ほろ苦い景色を彷彿とさせる「放物線」収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/5E-mJCK6w10',
     tracks: toTracks(`
 2年後
 荒野
@@ -332,7 +332,7 @@ nodoka
     year: '2022年3月',
     cover: 'images/11thfull.PNG',
     description: 'ポップな曲からあっさり系まで幅広く収録。ライブで盛り上がるときに欠かせない「Wifiないと生きていけない」収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/JB_pb7NSdoA',
     tracks: toTracks(`
 管楽団の夜 (inst.)
 朝靄の歌
@@ -354,7 +354,7 @@ no noodle no life
     year: '2022年6月',
     cover: 'images/12thfull.PNG',
     description: 'バラエティに富んだ感のあるアルバム。何気なく続く日々の尊さに迫った「新しい朝」収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/IT4CaAJv91s',
     tracks: toTracks(`
 夜のクリシェ
 サンセット
@@ -376,7 +376,7 @@ jellyfish dreaming
     year: '2022年8月',
     cover: 'images/13thfull.PNG',
     description: '打ち込みラップ系に目覚め、短期間で大量作曲したアルバム。踏んでるんだか踏まれているのかは定かではない。',
-    youtube: '#',
+    youtube: 'https://youtu.be/OjiGuRTak-A',
     tracks: toTracks(`
 ハニー＆ダーリン
 dope music
@@ -398,7 +398,7 @@ heartbeat (inst.)
     year: '2022年9月',
     cover: 'images/14thfull.PNG',
     description: '歌ものへ回帰した感のあるアルバム。「リコリス」や「カムアゲイン」はライブでも歌っています。',
-    youtube: '#',
+    youtube: 'https://youtu.be/Upsh_yIvRbY',
     tracks: toTracks(`
 日常
 パークサイドメモリー
@@ -420,7 +420,7 @@ heartbeat (inst.)
     year: '2022年8月',
     cover: 'images/15thfull.PNG',
     description: '学生時代から作り貯めた未収録曲を集めたアーカイブ的作品。',
-    youtube: '#',
+    youtube: 'https://youtu.be/cwKvJFhvL68',
     tracks: toTracks(`
 ひかりのまち
 シエスタ日和
@@ -442,7 +442,7 @@ conifer forest (inst.)
     year: '2023年2月',
     cover: 'images/16thfull.PNG',
     description: '爽やかなポップチューン「ああキャンディ」ほかコロナにうなされながら作った「羽のない天使」収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/wKOs-2pqAs4',
     tracks: toTracks(`
 あ、ハッピーニューイヤー
 ああ、キャンディ
@@ -464,7 +464,7 @@ conifer forest (inst.)
     year: '2023年3月',
     cover: 'images/17thfull.PNG',
     description: '小笹のスーパーでふと湧き上がり生まれた「僕らのスーパーマーケット」や過去の体験をありのままに告白した「狂った君へ」収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/Eu7BS7SFVec',
     tracks: toTracks(`
 BoTAniCal DaYs
 僕らのスーパーマーケット
@@ -486,7 +486,7 @@ no color
     year: '2023年4月',
     cover: 'images/18thfull.PNG',
     description: 'ラップ系アルバム再来。勢いで作りました。',
-    youtube: '#',
+    youtube: 'https://youtu.be/uM9sOpmvW7I',
     tracks: toTracks(`
 opening
 前兆
@@ -508,7 +508,7 @@ love and…
     year: '2023年6月',
     cover: 'images/19thfull.PNG',
     description: 'バス停で見つけた鳩の亡骸に捧げた「バス停の鳩」や巡りゆく季節を軽やかに',
-    youtube: '#',
+    youtube: 'https://youtu.be/IOKdNJqtNgY',
     tracks: toTracks(`
 ちゃらんぽらんデイズ
 ピーターパン
@@ -530,7 +530,7 @@ hear me coming
     year: '2023年6月',
     cover: 'images/20thfull.PNG',
     description: '食べ物ソング爆発！ライブの定番「ハンバーガー」ほかシュールでダウナーな「二日酔い」など収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/JS-gRvn3HU8',
     tracks: toTracks(`
 ハンバーガー
 コッペパン
@@ -552,7 +552,7 @@ hear me coming
     year: '2023年10月',
     cover: 'images/21thfull.PNG',
     description: '食べ物系の流れに加え、友人の歌詞提供を受けて制作した「箱崎はよかとこね」など箱崎ソングも収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/z2dHeSk0Ijs',
     tracks: toTracks(`
 my name is hippo
 1988
@@ -574,7 +574,7 @@ my name is hippo
     year: '2023年11月',
     cover: 'images/22thfull.PNG',
     description: 'ライブで披露することは少ないけれども、確かに自分がその時感じたフィーリングが歌になっています。',
-    youtube: '#',
+    youtube: 'https://youtu.be/p6Oqz9psv4E',
     tracks: toTracks(`
 サマーサマー
 タラタラしてんじゃねーよ
@@ -596,7 +596,7 @@ looking for
     year: '2021年2月',
     cover: 'images/beat1.PNG',
     description: 'ビートメイキング風な曲づくりにチャレンジしたコンセプトアルバムvol.1。',
-    youtube: '#',
+    youtube: 'https://youtu.be/QSqCz4HLtnM',
     tracks: toTracks(`
 yoake
 warm
@@ -618,7 +618,7 @@ coda
     year: '2021年2月',
     cover: 'images/beat2.PNG',
     description: 'ビートメイキング風な曲づくりにチャレンジしたコンセプトアルバムvol.2。',
-    youtube: '#',
+    youtube: 'https://youtu.be/5yO2pbN2l7I',
     tracks: toTracks(`
 forgive me
 reborn
@@ -640,7 +640,7 @@ sugar and milk
     year: '2023年9月',
     cover: 'images/hakotarou.png',
     description: '最狂の脂うどんを提供する「うどん箱太郎」さんのテーマソング詰め合わせのアルバム。',
-    youtube: '#',
+    youtube: 'https://youtu.be/t5emob8rGeI',
     tracks: toTracks(`
 箱太郎伝説
 クレイジーパンダ
@@ -662,7 +662,7 @@ sugar and milk
     year: '2024年3月',
     cover: 'images/3rdep.PNG',
     description: '玉石混合なインストソングを集めたEP。',
-    youtube: '#',
+    youtube: 'https://youtu.be/HPCNmz6jFjA',
     tracks: toTracks(`
 another morning
 aquarium
@@ -678,7 +678,7 @@ under the sea
     year: '2023年4月',
     cover: 'images/4thep.PNG',
     description: 'ラップのような字余りの想いをフロウに乗せたEP。',
-    youtube: '#',
+    youtube: 'https://youtu.be/8fPzK8rr8Rs',
     tracks: toTracks(`
 KIRU YOU
 Xデイ
@@ -695,7 +695,7 @@ you are my sun
     year: '2024年2月',
     cover: 'images/23thfull.PNG',
     description: 'ライブの定番「オムオムオムライス」や己の人生観について素直に歌えた「マイウェイ」収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/ATiwnUxoN5Q',
     tracks: toTracks(`
 hippo音頭
 オムオムオムライス
@@ -717,7 +717,7 @@ no titile
     year: '2024年3月',
     cover: 'images/24thfull.PNG',
     description: '再開発される箱崎の街並みを想いながら作った「新しいハコザキ」や銭湯跡地でのライブを契機に生まれた「銭湯せんと？」など収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/2TvrrynJJMc',
     tracks: toTracks(`
 銭湯せんと？
 朝焼けとコーヒーと君と
@@ -739,7 +739,7 @@ helpless
     year: '2024年6月',
     cover: 'images/25thfull.PNG',
     description: 'ダークな世界観も感じさせる風変わりな印象もあるアルバム。',
-    youtube: '#',
+    youtube: 'https://youtu.be/5RPTQO8RZ0I',
     tracks: toTracks(`
 fxxk you bayby
 baby bamboo
@@ -761,7 +761,7 @@ xxxx
     year: '2024年8月',
     cover: 'images/26thfull.PNG',
     description: 'ありもしない夏の記憶が蘇るような「冷奴」や気まずい空気感を煮詰めたような「噛み合わない」収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/hDGGAf9gzkw',
     tracks: toTracks(`
 冷奴
 ヘビースモーカー
@@ -783,7 +783,7 @@ summergazer(inst.)
     year: '2024年10月',
     cover: 'images/27thfull.PNG',
     description: 'ポストパンクな趣のある「なんとなくパンク」や妖怪シリーズの先駆けとして「ぬらりひょん」収録。',
-    youtube: '#',
+    youtube: 'https://youtu.be/DLBrIFwUIyQ',
     tracks: toTracks(`
 なんとなくパンク
 ぬらりひょん
