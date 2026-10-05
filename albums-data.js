@@ -800,6 +800,28 @@ summergazer(inst.)
 `)
   },
 
+  {
+    title: 'drifting',
+    year: '2025年2月',
+    cover: 'images/28thfull.PNG',
+    description: '妖怪シリーズ「アイアム小豆洗い」やストレートなギターロックに憧れた「仏壇in the sky」など収録。',
+    youtube: 'https://youtu.be/HNE0cXGsBiw',
+    tracks: toTracks(`
+落武者ランナウェイ
+マシンガン・ビート・ミッドナイト
+brand new days
+なんとかかんとか
+アイアム小豆洗い
+くだん
+ピコピコボーイ
+drifting
+down on the street (inst.)
+samurai in the midnight
+おとぎ話
+仏壇 in the sky
+`)
+  },
+
 
 ];
 
